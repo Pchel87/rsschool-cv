@@ -1,6 +1,5 @@
 
 # **Ivan Chyrkou**
-
 ### Contacts:
 ####  E.mail + Stich77@yandex.ru 
 
