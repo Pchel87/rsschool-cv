@@ -4,7 +4,6 @@
 ####  E.mail + Stich77@yandex.ru 
 
 ####  Tel: + +375447379990
-
 ####  About myself:
 ##### I want to learn Front-End Developmen in RSSchool!
 
