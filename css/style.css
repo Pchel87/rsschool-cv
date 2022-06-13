@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #99991d;
+    font-family: 'Roboto Slab', serif;
+    
+    list-style-type: none;
+
+}
+.header{
+    width: 100%;
+    background-color: darkorange;
+}
+.wrappe{
+    max-width: 100%;
+    max-height: max-content;
+    margin: 0 auto;
+    display: flex;
+    border: 2px solid 	#0000FF;
+    
+}
+.wrappe_left{    
+    display: flex;
+    display: block;
+    text-align: center;
+    background-color: #008080;
+   
+    
+}
+.wrappe_foto img{
+    max-width: 300px;
+    max-height: 300px;
+    
+  
+    
+
+    
+}
+.wrappe_foto img{
+      width: 70%;
+  
+}
+.wrappe_contact{
+    font-size: 25px;
+    margin: 20px 0;
+    text-align: center;
+    color: #0000FF;
+    text-transform: uppercase;
+    font-weight: 700; 
+    
+}
+
+.border{
+    display: block;
+    border-bottom: 4px solid #FFFF00;
+    margin-top: 20px 0 20px;
+}
+.scills{
+    padding-top: 100px;
+}
+.scills ul li{
+    color: brown;
+}
+.main_mail{
+    color: gold;
+    text-decoration: none;
+}
+.mail_mail{
+    display: block;
+    padding-top: 20px;
+    color: 	#FFFFFF;
+    text-decoration: none;
+}
+.phone{
+    display: block;
+    margin: 10px 0 10px;
+    
+}
+.phone_phone{
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+.scills li{
+  list-style-type: none;
+  color: aqua;
+  padding: 10px;
+  margin-bottom: 20px;
+
+}
+.logo{
+    display: block;
+    justify-content: center;
+    align-items: flex-end;
+    padding-top: 250px;
+   
+}
+.logo_rs{
+    width: 30%;
+    height: 30%;
+
+    
+}
+
+.wrappe_right{
+    max-width: 100%;
+    text-align: center;
+    padding: 10px;
+
+}
+.main{
+    width: 75%;
+    background-color: rgb(151, 142, 142);
+}
+.about_me{
+    display: block;
+    padding: 80px 0 15px;
+    letter-spacing: 5px;
+    text-transform: capitalize;
+    font-size: 20px;
+  
+}
+.text{
+    font-size: 18px;
+    padding: 20px 0 30px;
+}
+.border_1{
+    display: block;
+    border-bottom: 2px solid #00ccff;
+    margin-top: 20px 0 20px;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.education{
+    font-size: 16px;
+    padding: 10px 0 10px;
+    text-align-last: left;
+}
+.strong{
+    font-weight: 700;
+}
+.education>p{
+    display: flex;
+   justify-content: center;
+}
+.git{
+   
+    width: 30px;
+    height: 30px;
+    
+}
+.github{
+    padding-top: 40px;
+    display: inline-block;
+    text-align: left;
+  }
+.year{
+    padding: 10px;
+}
+code{
+    font-weight: 700;
+   
+}
+.language_name{
+    list-style: none;
+    padding-top: 20px;
+}
+.year{
+    list-style: none;
+}
+.english{
+    font-style: 16px;
+    font-weight: 700; 
+    text-transform: uppercase;
+    
+}  
+.russian{
+    font-style: 16px;
+    font-weight: 700; 
+    text-transform: uppercase;
+}  
