@@ -4,111 +4,174 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap" rel="stylesheet">
-    <title>CV</title>  
+    <title>Document</title>
+    <link rel="stylesheet" class= "links" href="css/style.css">
 </head>
 <body>
-  <div class="wrappe">
-         <div class="header">
-            <div class="wrappe_left">
-                <div class="wrappe_foto">
-                    <img class="foto" src="img/1.jpg" alt="foto">
-                </div>
-                <div class="wrappe_contact">contact</div>
-                <div class="border"></div>
-                <div class="mail">
-                    <a  class="mail_mail" href="mailto:stich77@yandex.ru">stich77@yandex.ru</a></div>
-                <div class="phone">
-                    <a class="phone_phone" href="tel:+375447379990">+375447379990</a></div>
-                    <div class="border"></div>
-                <div class="scills">
-                    <div class="wrappe_contact">scills</div>
-                    <ul >
-                        <li>html</li>
-                        <li>css</li>
-                        <li>jsscript</li>
-                    </ul>
-                </div>
-                <div class="logo">
-                    <a class=logo_rs href="https://rs.school/">
-                        <img class= logo_rs src="icons/rs_school_js.svg" alt="logo_rs">
-                    </a>
+    <div class="container">
+    <header class="header">
+        <div class="conteiner">
+            <div class="header_wrap">                
+                    <div class="logo">
+                        <img class= "logo" src="img/logo.svg" alt="logo">
+                    </div>
+                    <nav class="nav">
+                        <div class="nav_wrapp">
+                            <ul class="list">
+                                <li class="items"><a class= "link" href="#">How It Works</a></li >
+                                <li class="items"><a class= "link" href="#">Plan Your Trip</a></li>
+                                <li class="items"><a class= "link" href="#">Destinations</a></li>
+                                <li class="items"><a class= "link" href="#">Travel Stories</a></li">
+                            </ul>
+                        </div>
+                    </nav>
+                    <button class="btn_header">
+                         <a class= "link_btn" href="#" >Login</a>
+                    </button>                
+            </div>
+         </div>
+        </div>
+    </header>
+    <main class="conteiner_main">
+        <section class="preview">
+            <div class="preview_wrap">
+                <div class="preview_content">
+                    <h1>Explore the beauty of the World</h1>
+                    <h6>Receive personalized recommendations for countries, hotels, activities and more</h6>
+                     <div class="search">
+                         <input class="input" type="input" name = "What would you like to do?" placeholder="What would you like to do?">    
+                         <button class="btn_preview">Start Planning</button>    
+                    </div>
                 </div>
             </div>
-        </div>
-        <div class="main">
-            <div class="wrappe_right">
-                <div class="about_me">
-                    <h1>Chyrkou ivan</h1>
-                    <div class="border_1"></div>
+        </section>
+        <section class="steps">
+            <div class="steps_wrap">
+                <div class="texth2">
+                    <h2>3 STEPS TO THE PERFECT TRIP</h2>
                 </div>
-                        <div class="text">
-                            <h2>Code</h2> 
-                        <code>
-                                function peak(arr) {
-
-                                    for (let i = 1; i &lt; arr.length - 1; i++) {
-                                    let leftSum = arr.slice(0, i).reduce((accumulator, currentValue) =&gt; accumulator + currentValue);
-                                    let rightSum = arr.slice(i + 1).reduce((accumulator, currentValue) =&gt; accumulator + currentValue);
-                                
-                                    if (leftSum === rightSum) return i;
-                                    }
-                                    return -1;
-                        </code>
-                        <div class="border_1"></div>
-                    <div class="text">
-                    <h2>Education</h2> 
-                    </div>
-                    <div class="description">
-                        <div class="date">
-                            <p>11/2021 – 01/2022</p>
-                            <p>Rolling Scopes School</p>
+                    <div class="icon_container">
+                        <div class="frame">
+                            <img class="icon" src="/icons/Frame 281.png" alt=" want to do" srcset="">
+                            <h4>Tell us what you want to do</h4>
                         </div>
-                        <div class="discription_item">
-                            <div class="education">
-                            <span class="strong">Course:</span>
-                            JavaScript Development stage0 </div>
-                            <div class="education">
-                                <p>01/2008 – 06/2013</p>
-                                <p>University</p>
-                            <span class="strong">University:</span>
-                            Belarusian State University of Physical Education
+                        <div class="frame">
+                            <img class="icon" src="/icons/Frame 112.png" alt="preferable dates">
+                            <h4>Share us preferable dates </h4>
+                        </div>
+                        <div class="frame"> 
+                            <img class="icon" src="/icons/Frame 123.png" alt="Wrecommendations">
+                            <h4>We will give you recommendations</h4>                                   
+                        </div>
+                     </div>
+           </div>
+        </section>
+        <section class="destinations">
+            <div class="texth2_2">
+                <h2>POPULAR DESTINATIONS</h2>
+            </div>
+            <div class="img_container">
+                <div class="img_wrapp">
+                    <img class="img_destinations" src="/img/Destination 1spain.jpg" alt="sea">
+                    <img class="img_destinations" src="/img/Destination 2japan.jpg" alt="japan">
+                    <img class="img_destinations" src="/img/Rectangle 25.png" alt="usa">
+                </div>
+             </div>
+           
+            
+            <div class="ellipse_destinations">
+                <div class="ellipse"></div>
+                <div class="ellipse"></div>
+                <div class="ellipse"></div>
+            </div>
+            <div class="btn_wrapp">
+                <div class="btn_destinations">
+                    <div><img class="arrow" src="/img/Vector (6).svg" alt="arrow"></div>
+                    <div> <button class="see_more">Find More</button></div>
+                </div>
+            </div>
+        </section>
+        <section class="stories">
+           
+            <div class="texth2">
+                <h2>TRAVEL STORIES</h2>
+            </div>
+            <div class="stories_bg">
+                <div class="stories_bg_1">
+                    <div class="stries_wrap">
+                        <div class="stories_container">
+                            <div class="stories_content">
+                                    <div class="story">
+                                        <img class="story_img" src="/img/Rectangle 29.png" alt=photos">
+                                    </div>
+                                    <div class="story_content">
+                                        <div><h3>10 Photos of Attractive Thailand</h3></div>
+                                        <h4>TRAVEL STORIES
+                                            10 Photos of Attractive Thailand
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h4>
+                                            <a class="read_more">Read More</a>
+                                            
+                                    </div>
+                            </div>
+                                <div class="stories_content">
+                                    <div class="story">
+                                        <img class="story_img" src="/img/Rectangle 30.png" alt=photos">
+                                    </div>
+                                    <div class="story_content">
+                                        <div><h3>Canyonlands National Park, Utah</h3></div>
+                                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h4>
+                                        <a class="read_more">Read More</a>
+                                    </div>
+                                </div>
+                                <div class="stories_content">
+                                    <div class="story">
+                                        <img class="story_img" src="/img/Rectangle 31.png" alt=photos">
+                                    </div>
+                                    <div class="story_content">
+                                        <div><h3>I left my heart in the Mountains!</h3></div>
+                                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h4>
+                                        <a class="read_more">Read More</a>
+                                    </div> 
+                                </div>
+                                <div class="stories_content">
+                                    <div class="story">
+                                        <img class="story_img" src="/img/Rectangle 32.png" alt=photos">
+                                    </div>
+                                    <div class="story_content">
+                                        <h3>The Longest journey in my life!</h3>
+                                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit...</h4>
+                                        <a class="read_more">Read More</a>
+                                    </div>
+                            
+                                </div>
+                         </div>
+                         <div class="btn">
+                            <div class="btn_stories">
+                                <div><img class="arrow" src="/img/Vector (6).svg" alt="arrow"></div>
+                                <div> <button class="see_more"> See More</button></div>
                             </div>
                         </div>
-                        <div class="border_1"></div>
-                        <section class="languages">
-                            <h2>languages</h2>
-                            <ul class="languages_list">
-                                <li class="language_name"><p class="english">english</p>
-                                    <p>basic</p>
-                                </li>
-                                <li class="language_name"><p class="russian">russian</p>
-                                <p>native</p></li>
-                            </ul>
-                        </section>
                     </div>
-                <div class="border_1"></div>
-
-                <footer class="footer">
-                    <nav class="footer_nav">
-                        <ul class="footer_nav_list">
-                            <li class="github">
-                                <a href="https://github.com/Pchel87">
-                                    <img class="git" src="icons/github-brands.svg" alt="github">
-                                </a>
-                            </li>
-                            <li class="year">
-                                <span class="year_font">2022</span>
-                            </li>
-                        
-                        </ul>
-
-                    </nav>
-                </footer>
                 </div>
             </div>
         </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer_container">
+                <div class="text">
+                    <p class="text_footer">All Rights Reserved © Travel Portal</p>
+                </div>
+                <div class="icons">
+                    <a href="#"><img class="icon_footer1" src="/icons/Vector (3).png" alt=""></a>
+                    <a href="#"><img class="icon_footer" src="/icons/Group.png" alt=""></a>
+                    <a href="#"><img class="icon_footer" src="/icons/Vector (5).png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </footer>
     </div>
+
 </body>
 </html>
